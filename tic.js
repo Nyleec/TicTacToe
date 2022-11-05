@@ -244,8 +244,7 @@ function reset() {
     document.getElementById('box').value = '';
 }
  
-// Here onwards, functions check turn of the player
-// and put accordingly value X or 0
+// checks who's turn it is, and changes value of box selected accordingly
 flag = 1;
 function myfunc_3(param) {
     if (flag == 1) {
